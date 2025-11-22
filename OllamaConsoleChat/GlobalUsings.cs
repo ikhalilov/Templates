@@ -1,0 +1,13 @@
+global using System;
+global using System.Threading.Tasks;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.SemanticKernel;
+global using Microsoft.SemanticKernel.Connectors.Ollama;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Options;
+global using OllamaChat;
+global using OllamaChat.Interfaces;
+global using OllamaChat.Services;
+global using OllamaChat.Extensions;
+global using OllamaChat.Models;
